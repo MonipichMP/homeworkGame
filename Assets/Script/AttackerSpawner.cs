@@ -6,7 +6,7 @@ public class AttackerSpawner : MonoBehaviour {
 
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
-    [SerializeField] attacker attackerPrefab;
+    [SerializeField] Attacker attackerPrefab;
     bool spawn = true;
 
     IEnumerator Start()
